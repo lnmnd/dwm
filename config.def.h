@@ -25,7 +25,7 @@ static const Rule rules[] = {
 
 /* layout(s) */
 static const int dirs[3]      = { DirHor, DirVer, DirVer }; /* tiling dirs */
-static const float facts[3]   = { 1.1,    1.1,    1.1 };    /* tiling facts */
+static const float facts[3]   = { 1,      1,      1 };    /* tiling facts */
 static const int nmaster      = 1;    /* number of clients in master area */
 static const Bool resizehints = False; /* True means respect size hints in tiled resizals */
 
